@@ -82,6 +82,7 @@ class PermintaanScreen extends StatelessWidget {
                     readOnly: true,
                     isShowPrefixIcon: true,
                     isShowSuffixIcon: true,
+                    controller: tanggal,
                     isIcon: true,
                     suffixIcon: Icons.calendar_today_rounded,
                     onTap: () async {
